@@ -3,7 +3,6 @@
 dicionario = {}
 
 def recebe():
-    
     while True:
 
         chave = input("Digite uma palavra: ")
@@ -15,10 +14,5 @@ def recebe():
     n = sorted(dicionario.values())
     n = n[-1]
     print(n)
-    for i in dicionario:
-        if n == dicionario[i]:
-            print(dicionario[i])
-            
-
 
 recebe()
