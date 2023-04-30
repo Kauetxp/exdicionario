@@ -1,5 +1,6 @@
 #Escreva uma função que receba Nome e Idade. Retorne valores que contêm a chave "idade" 
 #e cujo valor é maior que 18.
+
 def maiorIdade():
     dicionario = {}
     while True:
@@ -20,3 +21,4 @@ def maiorIdade():
     else:
         print("Os maiores de idade são:\n",maiorIdade)
 
+maiorIdade()

@@ -1,6 +1,7 @@
 #Escreva uma função que receba duas listas de mesmo comprimento, 
 #uma contendo chaves e outra contendo valores, e retorna um dicionário 
 #criado a partir dessas listas.
+
 def cadastroTelefone():
     listaNome = []
     listaTel = []
@@ -19,3 +20,5 @@ def cadastroTelefone():
         tel = listaTel[item]
         dicionarioLista[tel]=nome
     print(dicionarioLista)
+
+cadastroTelefone()
